@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+    margin: auto;
+}
+#container{
+	width: 100%;
+	height: auto;
+	background: #fff;
+}
+/*header*/
+header{
+	width: 100%;
+	height: 180px;
+	background-image: url("../image/bg1.jpg");
+	background-size: 100%;
+	position: relative;
+	color: #FFF;
+}
+.login{
+	width: 150px;
+	height: 30px;
+	position: absolute;
+	left: 1200px;
+	top: 0px;
+}
+.login ul li{
+	list-style: none;
+	float: left;
+	color: black;
+	margin-top: 5px;
+}
+.login ul li:hover{
+	list-style: none;
+	float: left;
+	color: red;
+}
+.logo{
+	 width: 150px;
+	 height: 150px;
+	 margin-top: 15px;
+	 margin-left: 80px;
+}
+.title-header{
+	position: absolute;
+	top: 20px;
+	left: 250px;
+	font-size: 20px;
+}
+.name-school{
+	position: absolute;
+	top: 55px;
+	left: 250px;
+	font-size: 30px;
+}
+.name-other{
+	position: absolute;
+	top: 100px;
+	left: 250px;
+	font-size: 20px;
+}
+/*MENU*/
+nav{
+	height: 50px;
+}
+.box-nav{
+	width: 900px;
+	height: 50px;
+	float: left;
+}
+nav ul li{
+	list-style: none;
+	float: left;
+	font-size: 20px;
+	line-height: 50px;
+	padding: 0 45px;
+	color: black;
+}
+nav ul li:hover{
+	color: red;
+}
+.search{
+	width: 100%;
+	height: 50px;
+}
+.timkiem{
+	width: 320px;
+	border-radius: 5px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 20p;
+	outline:  none;
+	border: 1px solid #ccc;
+}
+.button-search{
+	width: 80px;
+	height: 30px;
+	margin-top: 10px;
+	outline: none;
+	margin-left: 5px;
+	border-radius: 5px;
+}
+/*SLIDESHOW*/
+.slideshow{
+	height: 400px;
+}
+.mySlides {
+	display:none;
+    height: 400px;
+}
+/*CONTENT*/
+ article{
+ 	width: 100%;
+ 	background: white;
+ }
+ .content{
+ 	width: 50%;
+ 	padding: 30px;
+ }
+ .content>h1{
+ 	font-size: 30px;
+ 	line-height: 34px;
+ 	font-weight: 700;
+ }
+ .post{
+ 	display: flex;
+ 	flex-wrap: nowrap;
+ }
+ .author, .date-entry, .post-view{
+ 	margin:  0;
+ 	padding-right: 30px;
+ 	list-style: none;
+ 	border-right: 1px solid #eee;
+ 	margin-right: 25px;
+ 	margin-top: 15px;
+ 	line-height: 20px;
+ }
+ .entry-content{
+ 	font-size: 17px;
+ }
+.anhchitiet{
+	width: 700px;
+	height: 500px;
+	display: block;
+}
+.entry-content>p{
+	padding: 20px;
+}
+.entry-content>span{
+	padding-left: 150px;
+	color: #CCC;
+}
+
+ 
+/*footer*/
+footer{
+	width: 100%;
+	height: 300px;
+	background-image: url("../image/img5.jpg");
+	
+
+}
+.box-footer{
+	width: 90%;
+	height: 250px;
+}
+.box1-footer{
+	width: 30%;
+	height: 250px;
+	float: left;
+	margin: 15px;
+}
+.title-footer{
+	width: 100%;
+	height: 30px;
+	color: #eded87;
+	text-align: center;
+	margin-top: 10px;
+	border-bottom: 1px solid white;
+}
+.text-footer{
+	font-size: 20px;
+	color: #fff;
+	margin-top: 20px;
+	text-align: justify;
+}
+.footer-ketnoi{
+	width: 60%;
+	height: 40px;
+	margin-top: 20px;
+
+}
+.footer-ketnoi ul li {
+	list-style: none;
+	float: left;
+	margin-left: 30px;
+}
